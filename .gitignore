@@ -427,3 +427,54 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Logs
+logs/
+*.log
+
+# Arquivos antigos / backup
+*.yaml_old
+*.yml_old
+*.yml_old*
+*.yaml_old*
+
+# Dados persistidos
+data/
+tmp/
+temp/
+
+# VSCode
+.vscode/
+
+# Linux
+*.swp
+*~
+
+# Variáveis de ambiente / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# Docker
+docker-data/
+volumes/
+
+# Grafana
+grafana/data/
+
+# Prometheus TSDB
+prometheus/data/
+
+# Loki data
+loki-data/
+
+# Node / Java build (caso exista futuramente)
+node_modules/
+target/
+dist/
+build/
+
+# Kubernetes secrets
+secret*.yaml
+secrets*.yaml
